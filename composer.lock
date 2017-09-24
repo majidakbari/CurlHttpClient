@@ -1,0 +1,121 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "62ac9031278d359cbf8a8f60e60859b1",
+    "packages": [
+        {
+            "name": "mhndev/php-std",
+            "version": "1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mhndev/php-std.git",
+                "reference": "35c4d7b66311f124befb9cec38bb770fe225a9a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mhndev/php-std/zipball/35c4d7b66311f124befb9cec38bb770fe225a9a0",
+                "reference": "35c4d7b66311f124befb9cec38bb770fe225a9a0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.6.*",
+                "phpunit/phpunit": "6.*"
+            },
+            "suggest": {
+                "ext-mongo": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mhndev\\phpStd\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Majid Abdolhosseini",
+                    "email": "majid8911303@gmail.com",
+                    "homepage": "http://www.mhndev.com/"
+                }
+            ],
+            "description": "php standard library",
+            "homepage": "https://github.com/mhndev/php-std",
+            "keywords": [
+                "php standard library"
+            ],
+            "time": "2017-06-14T09:59:19+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06 14:39:51"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}

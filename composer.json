@@ -1,0 +1,23 @@
+{
+    "name": "makbari/curl-http-client",
+    "description": "Http client based on curl",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Majid Akbari",
+            "email": "majidakbariiii@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "psr/http-message": "*",
+        "mhndev/php-std": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "makbari\\httpClient\\": "src/"
+        }
+    }
+}
