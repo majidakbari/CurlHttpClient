@@ -16,7 +16,7 @@ interface iHttpClient
      * @param string $body
      * @param array $headers
      * @param array $queryParams
-     * @return ResponseInterface|string
+     * @return array
      */
     function sendRequest(
         string $method = 'GET',
